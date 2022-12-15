@@ -7,7 +7,7 @@
 # Programs
 &emsp;A collection of programs made by me. 🙂
 
-- [**Inkscape CLI short actions**](./inkscape-cli-short-actions/README.md) ![](https://gh-tags.vercel.app/api?lang=python&size=small)
+- [**Inkscape CLI short actions**](https://github.com/lunatic-fox/programs/tree/inkscape-cli-short-actions) ![](https://gh-tags.vercel.app/api?lang=python&size=small)
 
 <div align="center">
 Made with ❤
