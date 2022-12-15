@@ -1,3 +1,12 @@
+<div align="right">
+  <a href="https://github.com/lunatic-fox/lunatic-fox/tree/main/crypto-donations">
+    <img src="https://shields.io/badge/Crypto-Donations-098213?logo=bitcoin">
+  </a>
+  <a href="https://github.com/lunatic-fox/programs/tree/main">
+    <img src="https://shields.io/badge/Back to main-eb344f">
+  </a>
+</div>
+
 # Inkscape CLI short actions
 &emsp;Inkscape CLI combined short actions.
 
