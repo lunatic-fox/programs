@@ -2,9 +2,12 @@
 &emsp;Inkscape CLI combined short actions.
 
 ## Requirements
-- [**Python 3.9 or higher**](https://www.python.org/downloads/) installed.
+- [**Inkscape 1.1 or higher**](https://inkscape.org/release/)
+- [**Python 3.9 or higher**](https://www.python.org/downloads/)
 
 ## Usage
+> If you have a Python version under `3.11.0`, then use `python` instead of `py` in command line.
+
 ### Input and output
 - `-i` - input path to SVG file.
 - `-o` - output path to SVG file.

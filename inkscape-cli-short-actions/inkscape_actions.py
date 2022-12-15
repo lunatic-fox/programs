@@ -14,7 +14,7 @@ actions, action, act_cmd = {}, lambda e: actions.setdefault(e.__name__, e), []
 def ungroup(*i):
   '''
     Ungroup all paths.
-    `i`: Input path
+    `i`: `str` - Input path
   '''
   with open(i[0]) as gn:
     gn = gn.read()
@@ -55,6 +55,12 @@ def center(*_):
 
 @action
 def resize(*i):
+  '''
+    Resize all paths as a group to defined size.
+    `i[0]`: `str` - Input path
+    `i[1]`: `str | float` - Size
+    `i[2]`: `0 | 1` - Defined axis.
+  '''
   with open(i[0]) as file:
     file = file.read()
 
@@ -88,6 +94,10 @@ def resize(*i):
 
 @action
 def fitBox(*i):
+  '''
+    Resize all paths as a group to fit the page size.
+    `i[0]`: `str` - Input path
+  '''
   with open(i[0]) as file:
     file = file.read()
 
