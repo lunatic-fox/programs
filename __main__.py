@@ -1,5 +1,5 @@
 import re, sys, os
-from inkscape_actions import actions, cmd, act_cmd
+from src.inkscape_actions import actions, cmd, act_cmd
 
 entry = ' '.join(sys.argv[1:])
 ipath = re.sub(r'^.*-i\s(.+?)(\n|\s.*|$)', r'\1', entry).replace('"', '')

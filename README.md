@@ -10,6 +10,8 @@
 
 ```git
 git clone -b inkscape-cli-short-actions https://github.com/lunatic-fox/programs.git
+cd programs
+
 ```
 
 > If you have a Python version under `3.11.0`, then use `python` instead of `py` in command line.
