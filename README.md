@@ -1,3 +1,9 @@
+<div align="right">
+  <a href="./crypto-donations">
+    <img src="https://shields.io/badge/Crypto-Donations-098213?logo=bitcoin">
+  </a>
+</div>
+
 # Programs
 &emsp;A collection of programs made by me. 🙂
 
