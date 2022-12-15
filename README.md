@@ -1,14 +1,64 @@
-<div align="right">
-  <a href="https://github.com/lunatic-fox/lunatic-fox/tree/main/crypto-donations">
-    <img src="https://shields.io/badge/Crypto-Donations-098213?logo=bitcoin">
-  </a>
-</div>
+# Inkscape CLI short actions
+&emsp;Inkscape CLI combined short actions.
 
-# Programs
-&emsp;A collection of programs made by me. 🙂
+## Requirements
+- [**Inkscape 1.1 or higher**](https://inkscape.org/release/)
+- [**Python 3.9 or higher**](https://www.python.org/downloads/)
 
-- [**Inkscape CLI short actions**](./inkscape-cli-short-actions/README.md) ![](https://gh-tags.vercel.app/api?lang=python&size=small)
+## Usage
+&emsp;Clone this repository by the command below.
 
-<div align="center">
-Made with ❤
-</div>
+```git
+git clone -b inkscape-cli-short-actions https://github.com/lunatic-fox/programs.git
+```
+
+> If you have a Python version under `3.11.0`, then use `python` instead of `py` in command line.
+
+### Input and output
+- `-i` - input path to SVG file.
+- `-o` - output path to SVG file.
+
+**Example**
+```bash
+py . -i src/img-i.svg -o out/img-o.svg
+```
+&emsp;In the example above `img-i.svg` is inside `src` folder and the processed SVG will be saved on `out` folder as `img-o.svg`.
+
+## Actions
+&emsp;It is possible to combine some actions.
+
+**Example**
+```bash
+py . -i src/img-i.svg -o out/img-o.svg ungroup unify fitbox
+```
+
+
+### ungroup
+&emsp;Ungroup all paths recursively.
+```bash
+py . -i src/img-i.svg -o out/img-o.svg ungroup
+```
+
+### unify
+&emsp;Unify all paths.
+```bash
+py . -i src/img-i.svg -o out/img-o.svg unify
+```
+
+### center
+&emsp;Align all paths as a group vertically and horizontally to the page.
+```bash
+py . -i src/img-i.svg -o out/img-o.svg center
+```
+
+### resize
+&emsp;Resize all paths as a group to defined size.
+```bash
+py . -i src/img-i.svg -o out/img-o.svg resize=256
+```
+
+### fitBox
+&emsp;Resize all paths as a group to fit the page size.
+```bash
+py . -i src/img-i.svg -o out/img-o.svg fitBox
+```
