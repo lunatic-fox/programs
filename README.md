@@ -23,7 +23,7 @@ cd programs
 
 ```
 
-> If you have a Python version under `3.11.0`, then use `python` instead of `py` in command line.
+> If you have a version of Python under `3.11.0`, then use `python` instead of `py` in command line.
 
 ### Input and output
 - `-i` - input path to SVG file.
