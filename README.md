@@ -1,5 +1,5 @@
 <div align="right">
-  <a href="./crypto-donations">
+  <a href="https://github.com/lunatic-fox/lunatic-fox/tree/main/crypto-donations">
     <img src="https://shields.io/badge/Crypto-Donations-098213?logo=bitcoin">
   </a>
 </div>
